@@ -1,0 +1,204 @@
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd-tmpfiles[83]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd-udevd[94]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    0.034354] Failed to register legacy timer interrupt
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    2.479347] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    3.062748] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    3.069395] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    3.069967] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    3.070523] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+May 25 21:40:36 LAPTOP-5H75LJ5E kernel: [    3.071185] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd-udevd[114]: sdc: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdc' failed with exit code 1.
+May 25 21:40:36 LAPTOP-5H75LJ5E systemd-udevd[97]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+May 25 21:40:37 LAPTOP-5H75LJ5E dbus-daemon[104]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+May 25 21:40:37 LAPTOP-5H75LJ5E networkd-dispatcher[118]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+May 25 21:40:37 LAPTOP-5H75LJ5E networkd-dispatcher[118]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+May 25 21:40:45 LAPTOP-5H75LJ5E systemd[1]: snap-snapd-20290.mount: Mount process exited, code=exited, status=1/FAILURE
+May 25 21:40:45 LAPTOP-5H75LJ5E systemd[1]: Reload failed for Mount unit for snapd, revision 20290.
+May 25 21:40:45 LAPTOP-5H75LJ5E snapd[130]: stateengine.go:149: state ensure error: systemctl command [reload-or-restart snap-snapd-20290.mount] failed with exit status 1: Job failed. See "journalctl -xe" for details.
+May 25 21:40:46 LAPTOP-5H75LJ5E systemd[1]: snap-bare-5.mount: Mount process exited, code=exited, status=1/FAILURE
+May 25 21:40:46 LAPTOP-5H75LJ5E systemd[1]: Reload failed for Mount unit for bare, revision 5.
+May 25 21:40:46 LAPTOP-5H75LJ5E snapd[130]: stateengine.go:149: state ensure error: systemctl command [reload-or-restart snap-bare-5.mount] failed with exit status 1: Job failed. See "journalctl -xe" for details.
+May 25 21:40:47 LAPTOP-5H75LJ5E systemd[1]: snap-ubuntu\x2ddesktop\x2dinstaller-1276.mount: Mount process exited, code=exited, status=1/FAILURE
+May 25 21:40:47 LAPTOP-5H75LJ5E systemd[1]: Reload failed for Mount unit for ubuntu-desktop-installer, revision 1276.
+May 25 21:40:47 LAPTOP-5H75LJ5E snapd[130]: stateengine.go:149: state ensure error: systemctl command [reload-or-restart snap-ubuntu\x2ddesktop\x2dinstaller-1276.mount] failed with exit status 1: Job failed. See "journalctl -xe" for details.
+May 25 21:41:22 LAPTOP-5H75LJ5E kernel: [    7.679891] WSL (182) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    0.049330] Failed to register legacy timer interrupt
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd-tmpfiles[83]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    2.407198] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    3.266121] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    3.278115] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    3.278832] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    3.279461] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 10:52:38 LAPTOP-5H75LJ5E kernel: [    3.280321] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd-udevd[115]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd-udevd[111]: sdc: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdc' failed with exit code 1.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E systemd-udevd[118]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E dbus-daemon[104]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Jun  9 10:52:38 LAPTOP-5H75LJ5E networkd-dispatcher[124]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jun  9 10:52:38 LAPTOP-5H75LJ5E networkd-dispatcher[124]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jun  9 10:52:45 LAPTOP-5H75LJ5E systemd[1]: snap-core22-864.mount: Mount process exited, code=exited, status=1/FAILURE
+Jun  9 10:52:45 LAPTOP-5H75LJ5E systemd[1]: Reload failed for Mount unit for core22, revision 864.
+Jun  9 10:52:45 LAPTOP-5H75LJ5E snapd[126]: stateengine.go:149: state ensure error: systemctl command [reload-or-restart snap-core22-864.mount] failed with exit status 1: Job failed. See "journalctl -xe" for details.
+Jun  9 10:52:45 LAPTOP-5H75LJ5E systemd[1]: snap-gtk\x2dcommon\x2dthemes-1535.mount: Mount process exited, code=exited, status=1/FAILURE
+Jun  9 10:52:45 LAPTOP-5H75LJ5E systemd[1]: Reload failed for Mount unit for gtk-common-themes, revision 1535.
+Jun  9 10:52:45 LAPTOP-5H75LJ5E snapd[126]: stateengine.go:149: state ensure error: systemctl command [reload-or-restart snap-gtk\x2dcommon\x2dthemes-1535.mount] failed with exit status 1: Job failed. See "journalctl -xe" for details.
+Jun  9 10:53:24 LAPTOP-5H75LJ5E kernel: [    8.288616] WSL (179) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jun  9 10:57:38 LAPTOP-5H75LJ5E python3[593]: failed to process /proc/version_signature.
+Jun  9 10:57:38 LAPTOP-5H75LJ5E python3[593]: Failed to parse kernel: 5.15.167.4-microsoft-standard-WSL2
+Jun  9 10:59:30 LAPTOP-5H75LJ5E snapd[126]: backend.go:152: cannot create host `snap userd` dbus service file: failed to copy all: "cp: cannot stat '/snap/snapd/24505/usr/share/dbus-1/services/io.snapcraft.Prompt.service': No such file or directory" (1)
+Jun  9 10:59:33 LAPTOP-5H75LJ5E snapd[1124]: helpers.go:159: error trying to compare the snap system key: system-key versions not comparable
+Jun  9 11:04:55 LAPTOP-5H75LJ5E subiquity_event.1723[1723]: subiquity/Error/apply_autoinstall_config
+Jun  9 11:04:55 LAPTOP-5H75LJ5E subiquity_event.1723[1723]: subiquity/Error/apply_autoinstall_config
+Jun  9 11:05:51 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jun  9 11:05:51 LAPTOP-5H75LJ5E systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jun  9 11:23:47 LAPTOP-5H75LJ5E kernel: [ 1872.268630] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:23:47 LAPTOP-5H75LJ5E kernel: [ 1872.274329] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:23:47 LAPTOP-5H75LJ5E kernel: [ 1872.275063] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:23:47 LAPTOP-5H75LJ5E kernel: [ 1872.275628] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:23:47 LAPTOP-5H75LJ5E kernel: [ 1872.276367] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 11:25:46 LAPTOP-5H75LJ5E kernel: [ 1989.281145] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:25:46 LAPTOP-5H75LJ5E kernel: [ 1989.285329] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:25:46 LAPTOP-5H75LJ5E kernel: [ 1989.286139] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:25:46 LAPTOP-5H75LJ5E kernel: [ 1989.286876] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:25:46 LAPTOP-5H75LJ5E kernel: [ 1989.287718] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 11:26:48 LAPTOP-5H75LJ5E kernel: [ 2053.404489] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:26:48 LAPTOP-5H75LJ5E kernel: [ 2053.408524] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:26:48 LAPTOP-5H75LJ5E kernel: [ 2053.410997] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:26:48 LAPTOP-5H75LJ5E kernel: [ 2053.413028] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:26:48 LAPTOP-5H75LJ5E kernel: [ 2053.416280] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2196.598976] WSL (179) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2230.923333] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2230.928066] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2230.928818] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2230.929728] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:29:45 LAPTOP-5H75LJ5E kernel: [ 2230.931332] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 11:30:19 LAPTOP-5H75LJ5E kernel: [ 2262.542501] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:30:19 LAPTOP-5H75LJ5E kernel: [ 2262.546472] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:30:19 LAPTOP-5H75LJ5E kernel: [ 2262.547274] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:30:19 LAPTOP-5H75LJ5E kernel: [ 2262.548031] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:30:19 LAPTOP-5H75LJ5E kernel: [ 2262.548878] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Jun  9 11:31:04 LAPTOP-5H75LJ5E kernel: [ 2306.649530] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Jun  9 11:31:04 LAPTOP-5H75LJ5E kernel: [ 2306.652677] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:31:04 LAPTOP-5H75LJ5E kernel: [ 2306.653441] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:31:04 LAPTOP-5H75LJ5E kernel: [ 2306.654084] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Jun  9 11:31:04 LAPTOP-5H75LJ5E kernel: [ 2306.654911] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Aug 11 22:24:43 Vickydes kernel: [    0.049999] Failed to register legacy timer interrupt
+Aug 11 22:24:43 Vickydes systemd-tmpfiles[145]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Aug 11 22:24:43 Vickydes systemd-udevd[166]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Aug 11 22:24:43 Vickydes systemd-udevd[163]: sdc: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdc' failed with exit code 1.
+Aug 11 22:24:43 Vickydes systemd-udevd[169]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+Aug 11 22:24:43 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Aug 11 22:24:43 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Aug 11 22:24:43 Vickydes kernel: [    5.772054] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Aug 11 22:24:43 Vickydes kernel: [    7.306547] Failed to connect to bus: No such file or directory
+Aug 11 22:24:43 Vickydes kernel: [    7.570147] Failed to connect to bus: No such file or directory
+Aug 11 22:24:43 Vickydes kernel: [    7.638489] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Aug 11 22:24:43 Vickydes kernel: [    7.672167] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Aug 11 22:24:43 Vickydes kernel: [    7.674577] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Aug 11 22:24:43 Vickydes kernel: [    7.676463] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Aug 11 22:24:43 Vickydes kernel: [    7.678373] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Aug 11 22:24:43 Vickydes kernel: [    7.835825] Failed to connect to bus: No such file or directory
+Aug 11 22:24:45 Vickydes dbus-daemon[233]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Aug 11 22:24:45 Vickydes networkd-dispatcher[237]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Aug 11 22:24:45 Vickydes networkd-dispatcher[237]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Aug 11 22:24:51 Vickydes pipewire[474]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Aug 11 22:24:51 Vickydes pipewire-media-session[475]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Aug 11 22:24:51 Vickydes pipewire[474]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Aug 11 22:25:05 Vickydes subiquity_event.358[358]: subiquity/Error/apply_autoinstall_config
+Aug 11 22:25:05 Vickydes subiquity_event.358[358]: subiquity/Error/apply_autoinstall_config
+Nov  5 23:32:47 Vickydes systemd-tmpfiles[144]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Nov  5 23:32:47 Vickydes systemd-udevd[168]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Nov  5 23:32:47 Vickydes systemd-udevd[151]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+Nov  5 23:32:47 Vickydes systemd-udevd[160]: sdc: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdc' failed with exit code 1.
+Nov  5 23:32:47 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Nov  5 23:32:47 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Nov  5 23:32:47 Vickydes kernel: [    0.060277] Failed to register legacy timer interrupt
+Nov  5 23:32:47 Vickydes kernel: [    4.641109] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Nov  5 23:32:47 Vickydes kernel: [    6.345768] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Nov  5 23:32:47 Vickydes kernel: [    6.379887] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  5 23:32:47 Vickydes kernel: [    6.381646] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  5 23:32:47 Vickydes kernel: [    6.382636] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  5 23:32:47 Vickydes kernel: [    6.384077] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Nov  5 23:32:47 Vickydes kernel: [    6.628439] Failed to connect to bus: No such file or directory
+Nov  5 23:32:47 Vickydes kernel: [    6.883497] Failed to connect to bus: No such file or directory
+Nov  5 23:32:47 Vickydes kernel: [    7.138389] Failed to connect to bus: No such file or directory
+Nov  5 23:32:47 Vickydes dbus-daemon[224]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Nov  5 23:32:47 Vickydes networkd-dispatcher[229]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Nov  5 23:32:47 Vickydes networkd-dispatcher[229]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Nov  5 23:32:52 Vickydes kernel: [    8.898155] WSL (179) ERROR: CheckConnection: getaddrinfo() failed: -5
+Nov  5 23:32:52 Vickydes pipewire[515]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  5 23:32:52 Vickydes pipewire-media-session[516]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  5 23:32:52 Vickydes pipewire[515]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  5 23:32:57 Vickydes subiquity_event.352[352]: subiquity/Error/apply_autoinstall_config
+Nov  5 23:32:57 Vickydes subiquity_event.352[352]: subiquity/Error/apply_autoinstall_config
+Nov  8 21:15:19 Vickydes systemd-tmpfiles[141]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Nov  8 21:15:19 Vickydes systemd-udevd[169]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Nov  8 21:15:19 Vickydes systemd-udevd[143]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
+Nov  8 21:15:19 Vickydes systemd-udevd[160]: sdc: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdc' failed with exit code 1.
+Nov  8 21:15:19 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Nov  8 21:15:19 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Nov  8 21:15:19 Vickydes kernel: [    0.038320] Failed to register legacy timer interrupt
+Nov  8 21:15:19 Vickydes kernel: [    5.900161] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Nov  8 21:15:19 Vickydes kernel: [    7.339022] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Nov  8 21:15:19 Vickydes kernel: [    7.364041] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 21:15:19 Vickydes kernel: [    7.364703] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 21:15:19 Vickydes kernel: [    7.365630] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 21:15:19 Vickydes kernel: [    7.366638] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Nov  8 21:15:19 Vickydes kernel: [    7.387934] Failed to connect to bus: No such file or directory
+Nov  8 21:15:19 Vickydes kernel: [    7.641917] Failed to connect to bus: No such file or directory
+Nov  8 21:15:20 Vickydes dbus-daemon[221]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Nov  8 21:15:20 Vickydes networkd-dispatcher[226]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Nov  8 21:15:20 Vickydes networkd-dispatcher[226]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Nov  8 21:15:25 Vickydes pipewire[569]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 21:15:25 Vickydes pipewire-media-session[570]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 21:15:25 Vickydes pipewire[569]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 21:15:33 Vickydes subiquity_event.349[349]: subiquity/Error/apply_autoinstall_config
+Nov  8 21:15:33 Vickydes subiquity_event.349[349]: subiquity/Error/apply_autoinstall_config
+Nov  8 21:16:01 Vickydes kernel: [    9.150114] WSL (182) ERROR: CheckConnection: getaddrinfo() failed: -5
+Nov  8 21:25:54 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Nov  8 21:25:54 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Nov  8 22:02:18 Vickydes kernel: [    0.034478] Failed to register legacy timer interrupt
+Nov  8 22:02:18 Vickydes systemd-tmpfiles[139]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Nov  8 22:02:18 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Nov  8 22:02:18 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Nov  8 22:02:18 Vickydes kernel: [    1.094708] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Nov  8 22:02:18 Vickydes kernel: [    1.852606] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Nov  8 22:02:18 Vickydes kernel: [    1.864505] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 22:02:18 Vickydes kernel: [    1.865367] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 22:02:18 Vickydes kernel: [    1.866442] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  8 22:02:18 Vickydes kernel: [    1.867169] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Nov  8 22:02:18 Vickydes kernel: [    6.052356] WSL (182) ERROR: CheckConnection: getaddrinfo() failed: -5
+Nov  8 22:02:18 Vickydes kernel: [   34.156487] Failed to connect to bus: No such file or directory
+Nov  8 22:02:18 Vickydes dbus-daemon[216]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Nov  8 22:02:18 Vickydes networkd-dispatcher[221]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Nov  8 22:02:18 Vickydes networkd-dispatcher[221]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Nov  8 22:02:23 Vickydes pipewire[486]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 22:02:23 Vickydes pipewire-media-session[487]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 22:02:23 Vickydes pipewire[486]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  8 22:02:26 Vickydes subiquity_event.383[383]: subiquity/Error/apply_autoinstall_config
+Nov  8 22:02:26 Vickydes subiquity_event.383[383]: subiquity/Error/apply_autoinstall_config
+Nov  9 10:32:56 Vickydes systemd-tmpfiles[140]: fchmod() of /tmp/.X11-unix failed: Read-only file system
+Nov  9 10:32:56 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Nov  9 10:32:56 Vickydes systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Nov  9 10:32:56 Vickydes kernel: [    0.057720] Failed to register legacy timer interrupt
+Nov  9 10:32:56 Vickydes kernel: [    2.352167] EXT4-fs (sdc): mounted filesystem with ordered data mode. Opts: discard,errors=remount-ro,data=ordered. Quota mode: none.
+Nov  9 10:32:56 Vickydes kernel: [    6.545413] misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+Nov  9 10:32:56 Vickydes kernel: [    6.565005] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  9 10:32:56 Vickydes kernel: [    6.566093] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  9 10:32:56 Vickydes kernel: [    6.566948] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+Nov  9 10:32:56 Vickydes kernel: [    6.569983] misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+Nov  9 10:32:56 Vickydes kernel: [    6.637838] Failed to connect to bus: No such file or directory
+Nov  9 10:32:56 Vickydes kernel: [    6.893030] Failed to connect to bus: No such file or directory
+Nov  9 10:32:56 Vickydes kernel: [    7.102245] WSL (182) ERROR: CheckConnection: getaddrinfo() failed: -5
+Nov  9 10:32:56 Vickydes dbus-daemon[218]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Nov  9 10:32:56 Vickydes networkd-dispatcher[223]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Nov  9 10:32:56 Vickydes networkd-dispatcher[223]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Nov  9 10:33:01 Vickydes pipewire[571]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 10:33:01 Vickydes pipewire-media-session[572]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 10:33:01 Vickydes pipewire[571]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 10:33:06 Vickydes subiquity_event.350[350]: subiquity/Error/apply_autoinstall_config
+Nov  9 10:33:06 Vickydes subiquity_event.350[350]: subiquity/Error/apply_autoinstall_config

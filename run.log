@@ -1,0 +1,272 @@
+[?2004h]0;prasanta@Vickydes: ~/MaintenanceSuite[01;32mprasanta@Vickydes[00m:[01;34m~/MaintenanceSuite[00m$ [7mcat ~/MaintenanceSuite/run.log[27mcat ~/MaintenanceSuite/run.log
+[?2004l[?2004h]0;prasanta@Vickydes: ~/MaintenanceSuite[01;32mprasanta@Vickydes[00m:[01;34m~/MaintenanceSuite[00m$ [7mcat ~/MaintenanceSuite/run.log[27mcat ~/MaintenanceSuite/run.log
+[?2004l[?2004h]0;prasanta@Vickydes: ~/MaintenanceSuite[01;32mprasanta@Vickydes[00m:[01;34m~/MaintenanceSuite[00m$ cat ~/MaintenanceSuite/run.logexec > >(tee -a "$HOME/MaintenanceSuite/run.log") 2>&1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32P./maintenance_suite.shchmod +x maintenance_suite.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knano maintenance_suite.sh[2Ptail -f /var/log/syslogcat ~/MaintenanceSuite/log_alerts.txt[21P./log_monitor.shchmod +x log_monitor.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./update_cleanup.shnano update_cleanup.sh[3P./update_cleanup.shchmod +x update_cleanup.sh[7P./update_cleanup.shnano update_cleanup.sh[3P./update_cleanup.shnano update_cleanup.sh[3P./update_cleanup.shchmod +x update_cleanup.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P./backup.shmkdir ~/Documents[2Pls [C[C[C[C[C[C[C[C[C[C[C[C[2@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[6P./backup.shnano update_cleanup.sh[11P./backup.shmkdir ~/Documents[6P./backup.shnano update_cleanup.sh[4@chmod +x[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P./update_cleanup.shnano update_cleanup.sh[3P./update_cleanup.shnano update_cleanup.sh[3P./update_cleanup.shchmod +x update_cleanup.sh[4Pnano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P./backup.shmkdir ~/Documents[2Pls [C[C[C[C[C[C[C[C[C[C[C[C[1Pnano backup.sh[3P./backup.shnano backup.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 6.2                        backup.sh                                 [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[36m#!/bin/bash[3d# backup.sh - creates a compressed backup of a directory[5d[39m(B[mSRC[32m=(B[0;1m[33m"/home/prasanta/Documents"[38G(B[0m[36m # <-- update this path[6d[39m(B[mDEST[32m=(B[0;1m[33m"/home/prasanta/Backups"[7d[39m(B[mDATE[32m=$([39m(B[mdate +%Y-%m-%d_%H-%M-%S[32m)[8d[39m(B[mFILE[32m=(B[0;1m[33m"$DEST/backup_$DATE.tar.gz"[10d(B[0m[36m# Create destination folder if not exists[11d(B[0;1m[34mmkdir[35m -p[39m(B[m (B[0;1m[33m"$DEST"[13d(B[0m[36m# Run backup[14d(B[0;1m[34mtar[39m(B[m -czf (B[0;1m[33m"$FILE"[39m(B[m (B[0;1m[33m"$SRC"[39m(B[m 2[32m>[39m(B[m/dev/null[16d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$?[39m(B[m [32m-eq[39m(B[m 0 [32m];[39m(B[m [32mthen[17;3H(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"✅ Backup created successfully at: $FILE"[18d(B[0m[32melse[19d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"⚠ Backup failed. Check if the source folder exists."[20d(B[0m[32mfi[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004lReceived SIGHUP or SIGTERM
+[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;32mRunning Backup Script...[0m
+===============================================
+===============================================
+🕒 Running backup.sh on 2025-11-09 10:54:55
+===============================================
+🕒 Running backup.sh on 2025-11-09 10:54:55
+===============================================
+./backup.sh: line 18: syntax error near unexpected token `else'
+./backup.sh: line 18: `else'
+./backup.sh: line 18: syntax error near unexpected token `else'
+./backup.sh: line 18: `else'
+
+Press Enter to return to the menu...[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;31mInvalid choice! Please enter 1–4.[0m
+
+Press Enter to return to the menu...[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;31mExiting... Goodbye![0m
+[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;32mRunning Backup Script...[0m
+===============================================
+===============================================
+🕒 Running backup.sh on 2025-11-09 10:58:06
+===============================================
+🕒 Running backup.sh on 2025-11-09 10:58:06
+===============================================
+✅ Backup created successfully at: /home/prasanta/Backups/backup_2025-11-09_10-58-06.tar.gz
+✅ Backup created successfully at: /home/prasanta/Backups/backup_2025-11-09_10-58-06.tar.gz
+
+Press Enter to return to the menu...[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;32mRunning System Update & Cleanup...[0m
+===============================================
+===============================================
+🕒 Running update_cleanup.sh on 2025-11-09 10:58:14
+===============================================
+🧹 Starting System Maintenance...
+-------------------------------------
+💾 Disk usage before cleanup:
+🕒 Running update_cleanup.sh on 2025-11-09 10:58:14
+===============================================
+🧹 Starting System Maintenance...
+-------------------------------------
+💾 Disk usage before cleanup:
+/dev/sdc        251G  2.7G  236G   2% /
+/dev/sdc        251G  2.7G  236G   2% /
+⬆ Updating system packages...
+⬆ Updating system packages...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Fetched 384 kB in 3s (148 kB/s)
+Reading package lists...Fetched 384 kB in 3s (148 kB/s)
+Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+Calculating upgrade...Calculating upgrade...
+
+The following packages have been kept back:
+  libnss-systemd libpam-systemd libsystemd0 libudev1 systemd systemd-sysv
+  systemd-timesyncd udev
+The following packages have been kept back:
+  libnss-systemd libpam-systemd libsystemd0 libudev1 systemd systemd-sysv
+  systemd-timesyncd udev
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+🗑  Removing unused packages...
+🗑  Removing unused packages...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+Reading state information...
+
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+💾 Disk usage after cleanup:
+💾 Disk usage after cleanup:
+/dev/sdc        251G  2.7G  236G   2% /
+/dev/sdc        251G  2.7G  236G   2% /
+[1;32m✅ Maintenance complete![0m
+-------------------------------------
+[1;32m✅ Maintenance complete![0m
+-------------------------------------
+
+Press Enter to return to the menu...[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;32mRunning Log Monitor...[0m
+===============================================
+===============================================
+🕒 Running log_monitor.sh on 2025-11-09 10:58:43
+===============================================
+🕒 Running log_monitor.sh on 2025-11-09 10:58:43
+===============================================
+-----------------------------------------
+🧠 Log Monitor Report - 2025-11-09_10-58-43
+-----------------------------------------
+[1;31m⚠  204 potential issues found![0m
+Check details in: /home/prasanta/MaintenanceSuite/log_alerts.txt
+-----------------------------------------
+🧠 Log Monitor Report - 2025-11-09_10-58-43
+-----------------------------------------
+[1;31m⚠  204 potential issues found![0m
+Check details in: /home/prasanta/MaintenanceSuite/log_alerts.txt
+
+Press Enter to return to the menu...[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;31mExiting... Goodbye![0m
+[H[2J[3J[1;36m============================================[0m
+     🧰  SYSTEM MAINTENANCE SUITE  
+[1;36m============================================[0m
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+--------------------------------------------
+Enter your choice (1-4): --------------------------------------------
+[1;31mExiting... Goodbye![0m
+===============================================
+🕒 Running backup.sh on 2025-11-09 11:07:23
+===============================================
+✅ Backup created successfully at: /home/prasanta/Backups/backup_2025-11-09_11-07-23.tar.gz
+[H[2J[3J[1;36m============================================[0m
+        🧰  SYSTEM MAINTENANCE SUITE
+[1;36m============================================[0m
+🕒 Sunday, 09 November 2025  11:15:38
+--------------------------------------------
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+5. 📊 Disk Usage Report
+--------------------------------------------
+Enter your choice (1–5): --------------------------------------------
+[1;32mRunning Backup Script...[0m
+===============================================
+===============================================
+🕒 Running backup.sh on 2025-11-09 11:15:42
+===============================================
+🕒 Running backup.sh on 2025-11-09 11:15:42
+===============================================
+[1;33mPress Enter to return to the menu...[0m
+✅ Backup created successfully at: /home/prasanta/Backups/backup_2025-11-09_11-15-42.tar.gz
+✅ Backup created successfully at: /home/prasanta/Backups/backup_2025-11-09_11-15-42.tar.gz
+[H[2J[3J[1;36m============================================[0m
+        🧰  SYSTEM MAINTENANCE SUITE
+[1;36m============================================[0m
+🕒 Sunday, 09 November 2025  11:15:47
+--------------------------------------------
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+5. 📊 Disk Usage Report
+--------------------------------------------
+Enter your choice (1–5): --------------------------------------------
+[1;32m📊 Disk Usage Report:[0m
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc        251G  2.7G  236G   2% /
+
+[1;33mPress Enter to return to the menu...[0m
+[H[2J[3J[1;36m============================================[0m
+        🧰  SYSTEM MAINTENANCE SUITE
+[1;36m============================================[0m
+🕒 Sunday, 09 November 2025  11:16:18
+--------------------------------------------
+1. 🗂  Backup Files
+2. 🧹 Update & Cleanup System
+3. 🧠 Monitor Logs for Errors
+4. 🚪 Exit
+5. 📊 Disk Usage Report
+--------------------------------------------
+Enter your choice (1–5): --------------------------------------------
+[1;31mExiting... Goodbye![0m
+
